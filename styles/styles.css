@@ -1,0 +1,432 @@
+/*general rules*/
+
+/*1 em = 14px*/
+:root {
+    --blue: #2196F3;
+    --white: #ffffff;
+    --black-text: #212121;
+    --gray-text: #757575;
+    --bg-color: #2F303A; 
+    --bg-color2: #F5F4FA;
+    --footer-addres-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    font-family: 'Roboto', sans-serif;
+    color: var(--black-text);
+    background-color: var(--white);
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+/*header*/
+header {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    border-bottom: 1px solid #ECECEC;
+}
+header .logo {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--blue);
+}
+header .logo span {
+    margin: 0;
+    display: inline-block;
+    color: var(--black-text);
+    padding: 25px 0;
+}
+.header a {
+    text-decoration: none;
+}
+
+/*links*/
+.links {
+    margin-left: 90px;
+}
+.links ul {
+    width: 40%;
+    list-style: none;
+    margin-top: 0;
+    padding-left: 0;
+    display: flex;
+    padding: 32px 0
+}
+.links ul li:last-child {
+    margin-right: 0;
+}
+.links ul li {
+    margin-right: 50px;
+}
+.links li a {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02;
+    text-decoration: none;
+    color: var(--black-text);
+
+}
+.links li a span {
+    margin: 0;
+    color: var(--blue);;
+}
+
+/*contacts*/
+.contacts {
+    font-family: 'Roboto';
+    list-style: none;
+    margin-top: 0;
+    padding-left: 0;
+    display: flex;
+    margin-left: auto;
+    padding: 32px;
+}
+
+.tel {
+    color: var(--gray-text);
+}
+
+.mail {
+    margin-right: 50px;
+    color: var(--gray-text);
+}
+
+/*Block 1*/
+.logo-img {
+    width: 100%;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--blue);
+}
+.banner {
+    padding: 200px 0;
+    background: var(--bg-color);
+    text-align: center;
+    width: 1600px;
+    margin: 0 auto;
+}
+.banner h1 {
+    max-width: 695px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color:var(--white);
+}
+.banner .btn {
+    margin-top: 30px;
+    color: var(--white);
+    background: var(--blue);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    letter-spacing: 0.06em;
+    padding: 10px 32px;
+    border: none;
+    width: 200px;
+    height: 50px;
+
+
+}
+/*our benefits*/
+.disappering_title{
+    display: none;
+}
+.benefits ul {
+    font-family: 'Roboto';
+    margin: 0 auto;
+    display: flex;
+}
+.benefits ul li {
+    margin-right: 30px;
+}
+.benefits ul li:last-child {
+    margin-right: 0;
+}
+.benefits h3 {
+    margin-top: 0;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--black-text);
+}
+.benefits p {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--gray-text);
+    margin-bottom: 0;
+}
+/*works*/
+.works {
+    padding-bottom: 95px;
+}
+.works h2 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--black-text);
+    margin-bottom: 50px;
+}
+.works ul {
+    display: flex;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.works ul li {
+    margin-right: 30px;
+}
+.works ul li:last-child {
+    margin-right: 0;
+}
+.team {
+    background: var(--bg-color2);
+    width: 1600px;
+    margin: 0 auto;
+}
+.m-bt-95 {
+    padding: 95px 0;
+}
+.team h2 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--black-text);
+    margin-bottom: 50px;
+}
+.team ul {
+    display: flex;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.team img {
+    width: 100%;
+}
+.team li:last-child {
+    margin: 0;
+}
+.team li {
+    margin-right: 30px;
+    background: var(--white);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    text-align: center;
+}
+.team h3 {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--black-text);
+    margin: 30px 0 10px;
+}
+.team  p {
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--gray-text);
+}
+/*footer*/
+footer{
+    background: var(--bg-color);
+    margin: 0 auto;
+    height: 252px;
+    width: 1600px;
+}
+.bottom_logo{
+    display: flex;
+    color: var(--blue);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    max-width:145px;
+    padding-top: 60px;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.bottom_logo span{
+    margin: 0;
+    color: var(--white);
+}
+address{
+    margin-top: 20px;
+}
+footer address ul li a{
+    color: var(--footer-addres-color)
+}
+footer address ul li span a {
+    color: var(--white);
+}
+footer ul{
+    margin-top: 9px;
+}
+footer ul li {
+    margin-top: 9px;
+}
+address{
+    text-decoration-style: none;
+    max-width: 1170px;
+    margin: 0 auto;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+/*portfolio*/
+
+/*top buttoms*/
+.buttons{
+    display: flex;
+justify-content: center;
+}
+.buttons li{
+    margin-right: 6px;
+}
+.buttons li:last-child {
+margin: 0;
+}
+.buttons li button{
+    padding: 6px 22px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background: var(--bg-color2);
+    border-radius: 4px;
+    border: 0;
+    color: var(--black-text);
+}
+.button-red{ 
+    background: var(--blue);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color: var(--white);
+}
+/*images description*/
+.images p{
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--gray-text);
+}
+.images h2{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--black-text);
+    margin:20px 24px 4px 24px;
+}
+.images p {
+    margin:0px 24px 20px 24px;
+}
+
+/*images position*/
+img {
+    justify-content: space-between ;
+    width: 100%;
+    /*margin-top: 30px;*/
+}
+
+.images {
+    max-width:1170px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-top: 20px;
+    justify-content: space-between;
+    padding-bottom: 95px;
+}
+
+a:hover,a:focus{
+    color: var(--blue);
+    transition: color .5s ease-out;
+}
+
+.images li{
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.links ul li .current {
+    color: var(--blue)
+}
+
+.btn:hover,.btn:focus {
+    background: var(--blue);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color: var(--white);
+    cursor: pointer;
+
+}
+
+.banner .container .btn:hover
+    {visibility: hidden;}
+
+.links ul li a:hover,.links ul li a:focus {
+    color: var(--blue);
+    transition: color .5s ease-in-out;
+}
+
+.contacts li a .tel:hover{
+    color: var(--blue);
+    transition: color .5s ease-out;
+}
+.container{
+    width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+
+/*transition: color .5s ease-in-out;*/
+/*плавність для анімації на ховер
+ 1 color для чого (all)
+ 2 .5s тривалість
+ 3 ease-in-out яка аме анімація
+*/
+
+
+
