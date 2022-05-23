@@ -466,5 +466,10 @@ margin-top: var(--card-set-gap);
 
 }
 .card-content{
-    border: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    padding-top: 20px;
+    padding-bottom: 24px;
+    
 }
